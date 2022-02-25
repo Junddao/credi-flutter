@@ -1,0 +1,3 @@
+class ProductQuantityType {
+  String? quantity;
+}

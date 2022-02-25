@@ -1,0 +1,186 @@
+{
+  "project_info": {
+    "project_number": "222865877848",
+    "project_id": "crediapp-dev-763ca",
+    "storage_bucket": "crediapp-dev-763ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222865877848:android:fceec0864d06451c82132d",
+        "android_client_info": {
+          "package_name": "com.credi.crediFactoryApp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222865877848-grl3841etm89bk3nv03cf5mpclus3ufv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.credi.crediFactoryApp.dev",
+            "certificate_hash": "8d2557d3fa8da9320b422d416d83f6ee0598d9c1"
+          }
+        },
+        {
+          "client_id": "222865877848-2en4ffiti6fadiu5blk53fvqrmrt6bl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5DFAik7uZKJLE5B-LGguQJTY_poWYDjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222865877848-2en4ffiti6fadiu5blk53fvqrmrt6bl4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222865877848-a6md9fesb9i27iebjl4qlda26o8f1dog.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.credi.crediApp.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222865877848:android:bb0d6cc46154c52082132d",
+        "android_client_info": {
+          "package_name": "com.credi.crediFactoryApp.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222865877848-53bmr4kgfln6podrcv5c52kiitnc8lvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.credi.crediFactoryApp.stage",
+            "certificate_hash": "8d2557d3fa8da9320b422d416d83f6ee0598d9c1"
+          }
+        },
+        {
+          "client_id": "222865877848-2en4ffiti6fadiu5blk53fvqrmrt6bl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5DFAik7uZKJLE5B-LGguQJTY_poWYDjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222865877848-2en4ffiti6fadiu5blk53fvqrmrt6bl4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222865877848-a6md9fesb9i27iebjl4qlda26o8f1dog.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.credi.crediApp.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222865877848:android:c63cfa2e10bdf95882132d",
+        "android_client_info": {
+          "package_name": "com.credi.crediapp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222865877848-evlgca6gmvcltvd2h92f86hl0s53dj9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.credi.crediapp.dev",
+            "certificate_hash": "8d2557d3fa8da9320b422d416d83f6ee0598d9c1"
+          }
+        },
+        {
+          "client_id": "222865877848-2en4ffiti6fadiu5blk53fvqrmrt6bl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5DFAik7uZKJLE5B-LGguQJTY_poWYDjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222865877848-2en4ffiti6fadiu5blk53fvqrmrt6bl4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222865877848-a6md9fesb9i27iebjl4qlda26o8f1dog.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.credi.crediApp.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222865877848:android:6781822a2449ea7f82132d",
+        "android_client_info": {
+          "package_name": "com.credi.crediapp.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222865877848-c5tru0e9tlg04qsvdlbat4efrj6p0g2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.credi.crediapp.stage",
+            "certificate_hash": "8d2557d3fa8da9320b422d416d83f6ee0598d9c1"
+          }
+        },
+        {
+          "client_id": "222865877848-2en4ffiti6fadiu5blk53fvqrmrt6bl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5DFAik7uZKJLE5B-LGguQJTY_poWYDjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222865877848-2en4ffiti6fadiu5blk53fvqrmrt6bl4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222865877848-a6md9fesb9i27iebjl4qlda26o8f1dog.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.credi.crediApp.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

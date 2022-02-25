@@ -1,0 +1,1 @@
+open build/ios/archive/Runner.xcarchive

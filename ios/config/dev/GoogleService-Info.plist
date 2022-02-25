@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>222865877848-a6md9fesb9i27iebjl4qlda26o8f1dog.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.222865877848-a6md9fesb9i27iebjl4qlda26o8f1dog</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>222865877848-evlgca6gmvcltvd2h92f86hl0s53dj9j.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyArudMlqSheamBfsMwWDep_JyoIOHannGE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>222865877848</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.credi.crediApp.dev</string>
+	<key>PROJECT_ID</key>
+	<string>crediapp-dev-763ca</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crediapp-dev-763ca.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:222865877848:ios:18fc150db388d77c82132d</string>
+</dict>
+</plist>

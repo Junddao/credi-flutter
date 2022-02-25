@@ -1,0 +1,115 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  def on_success()
+    slack(
+      message: "App successfully built", #uploaded to iTunesConnect.",
+      success: true,
+      slack_url: "https://hooks.slack.com/services/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",
+      default_payloads: [:git_branch, :last_git_commit_message],
+      attachment_properties: {
+          fields: [
+              {
+                  title: "Build number",
+                  value: ENV["BUILD_NUMBER"],
+              },
+              {
+                  title: "Test URL",
+                  value: "https://app-test.awair.is",
+              }
+          ]
+      }
+    )
+  end
+
+  def on_error(exception)
+    slack(
+        message: "Error occured!",
+        success: false,
+        slack_url: "https://hooks.slack.com/services/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",
+        attachment_properties: {
+            fields: [
+                {
+                    title: "Error build failed",
+                    value: exception
+                }
+            ]
+        }
+    )
+  end
+  # desc "Version bump"
+  # lane :version_bump_project do |options|
+  #   # Set build number to current date and time
+  #   build_number = Time.new.strftime("%Y.%m.%d.%H.%M")
+  #   ENV["BUILD_NUMBER"] = build_number
+  #   increment_build_number build_number: build_number
+  #   # Set version number conforming the bump type
+  #   if options[:bump_type]
+  #     increment_version_number bump_type: options[:bump_type]
+  #   end
+  # end
+
+  # lane :androidBuild do
+  #   # Return the number of commits in current git branch
+  #   build_number = number_of_commits()
+  #   Dir.chdir ".." do
+  #     sh("f", "packages", "get")
+  #     sh("f", "clean")
+  #     sh("f", "build", "apk", "--build-number=#{build_number}")
+  #   end
+  # end
+
+  # lane :iosBuild do
+  #   # Return the number of commits in current git branch
+  #   build_number = number_of_commits()
+  #   Dir.chdir ".." do
+  #     sh("f", "packages", "get")
+  #     sh("f", "clean")
+  #     sh("f", "build", "ipa", "--build-number=#{build_number}")
+  #   end
+  # end
+
+  desc "Push a new beta build to TestFlight"
+  lane :release do
+    begin
+      # increment_build_number(xcodeproj: "Runner.xcodeproj")
+      # version_bump_project()
+      build_app(workspace: "Runner.xcworkspace", scheme: "Runner")
+      upload_to_app_store(
+        force: true, # Skip HTMl report verification
+        skip_screenshots: true,
+        skip_metadata: true
+      )
+      # upload_to_testflight(
+      #   ipa: "./Runner.ipa",
+      #   skip_waiting_for_build_processing: true
+      #   )
+      on_success()
+    rescue => exception
+      on_error(exception)
+    end
+  end
+
+  # desc "Upload build to TestFlight"
+  # lane :upload_testflight do
+  #   upload_to_testflight(
+  #     ipa: "./Runner.ipa",
+  #     skip_waiting_for_build_processing: true
+  #     )
+  # end
+end

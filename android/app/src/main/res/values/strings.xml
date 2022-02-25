@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="client_id">IO2VVCbSm_PkjWN5iGUb</string>
+    <string name="client_secret">ZCQblSahcX</string>
+    <string name="client_name">크레디</string>
+    <string name="facebook_app_id">375092960742077</string>
+    <string name="app_name">크레디</string>
+</resources>
